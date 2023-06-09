@@ -3,11 +3,6 @@ Python code for collecting and authenticating a user based on their keystroke pa
 
 
 ## Running
-* Using Docker:
-    ```
-    docker build -t ucontacti/key-stroke:latest .  
-    docker run -p 5000:5000 -it ucontacti/key-stroke
-    ```
 
 * Using Python(Make sure you are using python 3.6 or above):
     ```
@@ -30,10 +25,4 @@ To collect data a web interface was implemented using Flask and keystrokes timin
 * Neural Network (Pytorch)
 ### Testing
 The web platform also uses the model and performs a authentication using previous mentioned methods
-### Results
-The results of the authentication was over 90% and the detail report can be found [here](https://drive.google.com/open?id=1-332uLhMxQbwe6LelzNJXikF9g-gDSV-)
-## Authors
-* **Saleh Daghigh** - [ucontacti](https://github.com/ucontacti)
-* **Mahdi Paktinat**
 
-This project was done under the supervision of Dr. Michael Mock from Fraunhofer Institute.
